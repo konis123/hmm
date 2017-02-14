@@ -41,6 +41,6 @@ module.exports = function(){
         return done(null, newUser); // 새로운 회원 생성 후 로그인
       });
     });
-  }
+  }));
 
 }
